@@ -1,0 +1,9 @@
+{
+    "extends": "@paleite/tsconfig-node16",
+    "compilerOptions": {
+      "lib": ["ES2020"],
+      "target": "ES2020"
+      // #endregion
+    }
+  }
+  
