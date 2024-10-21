@@ -5,9 +5,9 @@ Get the plugin and extend your ESLint config.
 ### Install
 
 ```sh
-npm install --save-dev eslint eslint-plugin-diff
-yarn add -D eslint eslint-plugin-diff
-pnpm add -D eslint eslint-plugin-diff
+npm install --save-dev eslint eslint-plugin-diff-filtered
+yarn add -D eslint eslint-plugin-diff-filtered
+pnpm add -D eslint eslint-plugin-diff-filtered
 ```
 
 ### Extend config
