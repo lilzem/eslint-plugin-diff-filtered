@@ -39,7 +39,7 @@ const diffConfig = {
     overrides: [
         {
             files: ["*"],
-            processor: "diff/diff",
+            processor: "diff-filtered/diff",
         },
     ],
 };

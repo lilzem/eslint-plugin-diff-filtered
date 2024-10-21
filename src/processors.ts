@@ -44,7 +44,7 @@ const getProcessors = (): Required<Linter.Processor> => ({
 const diff = getProcessors();
 
 const diffConfig: Linter.BaseConfig = {
-  plugins: ["diff"],
+  plugins: ["diff-filtered"],
   overrides: [
     {
       files: ["*"],

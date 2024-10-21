@@ -14,12 +14,12 @@ pnpm add -D eslint eslint-plugin-diff-filtered
 
 Extend your ESLint config with one of our configs.
 
-#### `"plugin:diff/diff"`
+#### `"plugin:diff-filtered/diff"`
 
 Only lint changes
 
 ```json
 {
-  "extends": ["plugin:diff/diff"]
+  "extends": ["plugin:diff-filtered/diff"]
 }
 ```
