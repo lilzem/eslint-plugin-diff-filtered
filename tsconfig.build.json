@@ -1,0 +1,14 @@
+{
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+      "composite": false,
+      "declaration": true,
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "resolveJsonModule": true
+    },
+  
+    "include": ["src"],
+    "exclude": ["**/*.test-d.*", "**/*.test.*", "**/__fixtures__"]
+  }
+  

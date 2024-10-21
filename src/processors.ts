@@ -48,7 +48,7 @@ const diffConfig: Linter.BaseConfig = {
   overrides: [
     {
       files: ["*"],
-      processor: "diff/diff",
+      processor: "diff-filtered/diff",
     },
   ],
 };
